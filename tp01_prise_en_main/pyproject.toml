@@ -1,0 +1,14 @@
+[project]
+name = "tp01-prise-en-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+tp01-prise-en-main = "tp01_prise_en_main:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
